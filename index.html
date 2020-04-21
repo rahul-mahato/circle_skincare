@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <title>Circle Skincare</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        overflow: hidden;
+        background: url('./bg.jpg') no-repeat;
+        background-position:initial;
+        background-size:cover;
+        color:#222326;
+        height: 100vh;
+    }
+
+    .cont{
+        height: 100vh;
+    }
+
+    .col-6-faded{
+        background-color: #ffffffcc;
+        border-left: 3px solid #22232655;
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        body{
+            overflow: hidden;
+            background: url('./bg.jpg') no-repeat;
+            background-position:top;
+            background-size:cover;
+            color:#222326;
+            height: 100vh;
+        }
+
+        .col-md-6{
+            align-self: center !important;
+        }
+        .h1{
+            font-size: 25px;
+        }
+        img{
+            width: 100%;
+        }
+    }
+
+</style>
+<body>
+    <section class="cont container-fluid d-flex h-100">
+        <div class="row w-100 justify-content-center align-items-center m-0 p-0">
+            <div class="col-md-6 align-self-start">
+                <img src="./cg.png" alt="Circle Skincare" width="80%">
+            </div>
+            <div class="col-md-6 col-6-faded align-self-center">
+                <p class="text-muted font-weight-bold h1 ml-md-5 p-4">
+                    We are customizing best products for you.
+                <br/><strong style="color: #222326bb;">Stay tuned to get Just What Your Skin Needs.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
